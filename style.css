@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bolhas {
+    position: absolute;    
+    display: flex;
+}
+
+.bolhas span {
+    width: 30px;
+    height: 30px;
+    background: #FDF4F5;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #E8A0BF44,
+    0 0 50px #BA90C6,
+    0 0 100px #BA90C6;
+    animation: animar calc(350s / var(--i)) ease infinite;
+}
+
+@keyframes animar {
+    0% {
+        transform: translateY(100vh) scale(0.5);
+    }
+    100% {
+        transform: translateY(-10vh) scale(0.5);
+    }
+}
+
+.bolhas span:nth-of-type(even) {
+    background: #FDF4F5;
+    box-shadow: 0 0 0 10px #C0DBEA,
+    0 0 50px #2dc3ff,
+    0 0 100px #2dc3ff;
+}
+
+.VenhaFazerParte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: rgb(153, 99, 153);
+    text-shadow: 2px 2px 4px black,
+               -2px -2px 4px wheat;
+}
