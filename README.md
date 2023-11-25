@@ -15,4 +15,4 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 Clone este repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/maevesystem/Background.git
+   git clone https://github.com/maevesystem/Background-Animado.git
