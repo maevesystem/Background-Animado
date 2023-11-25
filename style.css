@@ -5,6 +5,7 @@
 }
 
 .container {
+    background-color: black;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -42,14 +43,4 @@
     box-shadow: 0 0 0 10px #C0DBEA,
     0 0 50px #2dc3ff,
     0 0 100px #2dc3ff;
-}
-
-.VenhaFazerParte {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background: rgb(153, 99, 153);
-    text-shadow: 2px 2px 4px black,
-               -2px -2px 4px wheat;
 }
