@@ -10,9 +10,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 - [Visual Studio Code](https://code.visualstudio.com/) ou seu editor de código preferido
 - Navegador web moderno (Google Chrome, Opera etc.)
 
-## Como Executar
+## Visualização
 
-Clone este repositório em sua máquina local:
+Link para visualização: https://maevesystem.github.io/Background-Animado/
 
-   ```bash
-   git clone https://github.com/maevesystem/Background-Animado.git
